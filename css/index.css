@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.h1 {
+ color:white;
+}
+
+.header { 
+background-color: white;
+}
+
+.prueba {
+    box-sizing:border-box;
+      text-align: right;
+      width: 125px;
+      height: 125px;
+      position: absolute;
+      top: 20 px;
+      left: 1700px;
+   }
+
+  .imgcec2{
+    position: relative;
+    left: 0px;
+      width:228px;
+      height:130px;
+      transition: width 0.2s, height 0.2s; /* Animation */
+    }
+    .fondo{
+        background-color: black;
+    }
+    .fondocontacto{
+        background-image: url("../assets/images/FONDO\ GABY.jpg");
+           }
+
+    *{ 
+        margin: 0;
+        padding: auto;
+        box-sizing: border-box;
+    }
+
+    .nav-linea{
+        list-style: none;
+        display: inline-block;
+        position: relative;  
+        color: white;    
+    }
+
+    .mapa {
+      margin-top: 5%;
+      margin-bottom: 3%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .formulario {
+      text-align: center;
+    }
+    
+    .text {
+      text-align: center;
+    }
+
+    body{
+      height: 100vh;
+    }
+
+    .galeria__contenedor {
+      background-color: rgba(26, 24, 24, 0.295);
+      width: 90%;
+      height: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      
+    }
+
+    .titulos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    img{
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+    
+    
