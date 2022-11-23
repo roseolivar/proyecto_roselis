@@ -9,7 +9,7 @@
 }
 
 .header { 
-background-color: white;
+background-color: rgba(82, 67, 67, 0.5);
 }
 
 .prueba {
@@ -92,5 +92,25 @@ background-color: white;
       height: 300px;
       object-fit: cover;
     }
+    
+    .contenedorAnimaciones{
+      overflow: hidden;
+    }
+    
+    .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+    .carousel-item{
+      height: 70vh;
+    }
+
+    .carousel-item img{
+      height: 100%;
+      object-fit: cover;
+    }
+
+
     
     
